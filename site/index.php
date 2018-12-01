@@ -31,7 +31,7 @@
    $database = "bulgaria";
    $user = "root";
    $password  = "Exam-2018-12";
-   $host = "dob-db";
+   $host = "dob-mariadb";
 
    try {
       $connection = new PDO("mysql:host={$host};dbname={$database};charset=utf8", $user, $password);
